@@ -70,11 +70,11 @@ const ContactSection = () => {
       label: "Phone",
       value: t("contact.phone"),
     },
-    {
-      icon: <Mail className="h-5 w-5" />,
-      label: "Email",
-      value: "alaahegazy962002@gmail.com",
-    },
+    // {
+    //   icon: <Mail className="h-5 w-5" />,
+    //   label: "Email",
+    //   value: "alaahegazy962002@gmail.com",
+    // },
   ];
 
   // Animation variants

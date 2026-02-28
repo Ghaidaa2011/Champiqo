@@ -7,7 +7,7 @@ const enTranslations = {
     home: 'Home',
     about: 'About',
     services: 'Services',
-    portfolio: 'Portfolio',
+    specialists: 'Specialists',
     testimonials: 'Testimonials',
     blog: 'Blog',
     contact: 'Contact',
@@ -143,7 +143,7 @@ const arTranslations = {
     home: 'الرئيسية',
     about: 'عنّي',
     services: 'الخدمات',
-    portfolio: 'الأعمال',
+    specialists: 'التخصصات',
     testimonials: 'آراء العملاء',
     blog: 'المدونة',
     contact: 'اتصل بي',
@@ -268,7 +268,7 @@ const arTranslations = {
     // errorMessage: 'حدث خطأ أثناء إرسال رسالتك. يرجى المحاولة مرة أخرى.',
   },
   footer: {
-    copyright: '© 2025 CHAMPIQO CLINIC. جميع الحقوق محفوظة.',
+    copyright: '© 2026 CHAMPIQO CLINIC. جميع الحقوق محفوظة.',
     links: {
       privacy: 'سياسة الخصوصية',
       terms: 'الشروط والأحكام',

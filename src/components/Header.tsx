@@ -34,17 +34,17 @@ const Header = () => {
       href: "#services",
     },
     {
-      name: t("navigation.portfolio"),
-      href: "#portfolio",
-    },
-    {
-      name: t("navigation.testimonials"),
-      href: "#testimonials",
+      name: t("navigation.specialists"),
+      href: "#specialists",
     },
     // {
-    //   name: t("navigation.blog"),
-    //   href: "#blog",
+    //   name: t("navigation.testimonials"),
+    //   href: "#testimonials",
     // },
+    {
+      name: t("navigation.blog"),
+      href: "#blog",
+    },
     {
       name: t("navigation.contact"),
       href: "#contact",
