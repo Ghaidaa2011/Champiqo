@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowDownIcon, SendIcon } from "lucide-react";
-import al from "@/assets/al.jpg";
+import champiqo from "@/assets/champiqo.jpeg";
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -69,7 +69,7 @@ const HeroSection = () => {
               transition={{ delay: 0.6 }}
             >
               <Button asChild size="lg">
-                <a href="#portfolio">
+                <a href="#specialists">
                   {t("hero.cta")}
                   <ArrowDownIcon className="ml-2 rtl:ml-0 rtl:mr-2 h-4 w-4" />
                 </a>
@@ -93,7 +93,7 @@ const HeroSection = () => {
             <div className="aspect-square max-w-md mx-auto rounded-full bg-gradient-to-tr from-primary/20 to-primary/50 p-1">
               <div className="w-full h-full rounded-full overflow-hidden flex items-center justify-center bg-gray-300">
                 <img
-                  src={al}
+                  src={champiqo}
                   alt="Profile"
                   className="object-cover w-full h-full"
                 />

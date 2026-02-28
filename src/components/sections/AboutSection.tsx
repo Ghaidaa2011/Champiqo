@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import all from "@/assets/all.jpg";
+import about from "@/assets/about.jpeg";
 
 const AboutSection = () => {
   const { t } = useTranslation();
@@ -45,7 +45,7 @@ const AboutSection = () => {
             <div className="aspect-square max-w-md mx-auto rounded-lg bg-gradient-to-tr from-primary/10 to-primary/30 p-1">
               <div className="w-full h-full rounded-lg overflow-hidden flex items-center justify-center bg-gray-300/50">
                 <img
-                  src={all}
+                  src={about}
                   alt="Profile"
                   className="object-cover w-full h-full"
                 />

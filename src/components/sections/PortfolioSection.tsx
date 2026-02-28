@@ -1,41 +1,46 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import SportsMusculoskeletal from "@/assets/SportsMusculoskeletal.jpeg";
+import OnFieldAcuteCare from "@/assets/OnFieldAcuteCare.jpeg";
+import StrengthConditioning from "@/assets/StrengthConditioning.jpeg";
+import ClinicalRehabilitation from "@/assets/ClinicalRehabilitation.jpeg";
+
 // import { Button } from "@/components/ui/button";
 // import { ArrowRightIcon, ExternalLinkIcon } from "lucide-react";
 
 const PortfolioSection = () => {
   const { t } = useTranslation();
 
-  const projects = [
+  const specialists = [
     {
-      title: t("portfolio.project1.title"),
-      category: t("portfolio.project1.category"),
-      description: t("portfolio.project1.description"),
-      image: "bg-primary/20",
+      title: t("specialists.specialist1.title"),
+      category: t("specialists.specialist1.category"),
+      description: t("specialists.specialist1.description"),
+      image: SportsMusculoskeletal,
     },
     {
-      title: t("portfolio.project2.title"),
-      category: t("portfolio.project2.category"),
-      description: t("portfolio.project2.description"),
-      image: "bg-secondary/50",
+      title: t("specialists.specialist2.title"),
+      category: t("specialists.specialist2.category"),
+      description: t("specialists.specialist2.description"),
+      image: OnFieldAcuteCare,
     },
     {
-      title: t("portfolio.project3.title"),
-      category: t("portfolio.project3.category"),
-      description: t("portfolio.project3.description"),
-      image: "bg-primary/10",
+      title: t("specialists.specialist3.title"),
+      category: t("specialists.specialist3.category"),
+      description: t("specialists.specialist3.description"),
+      image: StrengthConditioning,
     },
     {
-      title: t("portfolio.project4.title"),
-      category: t("portfolio.project4.category"),
-      description: t("portfolio.project4.description"),
-      image: "bg-primary/10",
+      title: t("specialists.specialist4.title"),
+      category: t("specialists.specialist4.category"),
+      description: t("specialists.specialist4.description"),
+      image: ClinicalRehabilitation,
     },
   ];
 
   return (
-    <section id="portfolio" className="section bg-secondary/30">
+    <section id="specialists" className="section bg-secondary/30">
       <div className="container">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -45,15 +50,15 @@ const PortfolioSection = () => {
           className="max-w-3xl mx-auto text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            {t("portfolio.title")}
+            {t("specialists.title")}
           </h2>
           <p className="text-lg text-foreground/70">
-            {t("portfolio.subtitle")}
+            {t("specialists.subtitle")}
           </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {projects.map((project, index) => (
+          {specialists.map((specialist, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 30 }}
@@ -62,8 +67,8 @@ const PortfolioSection = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <Card className="h-full overflow-hidden border-none shadow-md hover:shadow-lg transition-shadow">
-                <div
-                  className={`aspect-video ${project.image} flex items-center justify-center`}
+                {/* <div
+                  className={`aspect-video ${specialist.image} flex items-center justify-center`}
                 >
                   <div className="text-foreground/30">
                     <svg
@@ -80,14 +85,23 @@ const PortfolioSection = () => {
                       />
                     </svg>
                   </div>
+                </div> */}
+                <div className="aspect-video w-full overflow-hidden">
+                  <img
+                    src={specialist.image}
+                    alt={specialist.title}
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
                 </div>
                 <CardContent className="pt-4">
                   <div className="flex flex-col gap-2">
                     <span className="text-sm text-primary font-medium">
-                      {project.category}
+                      {specialist.category}
                     </span>
-                    <h3 className="text-xl font-bold">{project.title}</h3>
-                    <p className="text-foreground/70">{project.description}</p>
+                    <h3 className="text-xl font-bold">{specialist.title}</h3>
+                    <p className="text-foreground/70">
+                      {specialist.description}
+                    </p>
                   </div>
                 </CardContent>
                 {/* <CardFooter>
@@ -109,7 +123,7 @@ const PortfolioSection = () => {
           transition={{ duration: 0.5, delay: 0.5 }}
         >
           <Button variant="outline" size="lg">
-            {t("portfolio.viewAll")}
+            {t("specialists.viewAll")}
             <ArrowRightIcon className="ml-2 rtl:ml-0 rtl:mr-2 h-4 w-4" />
           </Button>
         </motion.div> */}

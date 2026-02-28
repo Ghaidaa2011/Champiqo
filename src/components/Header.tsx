@@ -74,7 +74,7 @@ const Header = () => {
           className="text-2xl font-bold text-primary flex items-center gap-2"
           aria-label="Home"
         >
-          <span className="hidden sm:inline">Alaa Hegazy</span>
+          <span className="hidden sm:inline">CHAMPIQO CLINIC</span>
         </a>
 
         {/* Desktop Navigation */}

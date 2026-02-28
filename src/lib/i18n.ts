@@ -13,63 +13,75 @@ const enTranslations = {
     contact: 'Contact',
   },
   hero: {
-    greeting: 'Hello, I am',
-    name: 'Alaa Hegazy',
-    title: 'Physiotherapist working at Diamond clinic',
-    description: 'Non-invasive aesthetic treatments and nutrition coaching specialist',
-    cta: 'View My Work',
-    contactCta: 'Contact Me',
+    greeting: 'Welcome to',
+    name: 'CHAMPIQO CLINIC',
+    title: 'PLAY • RECOVER • COMPETE',
+    description: 'Elite Sports Physical Therapy & Field Medical Support for Professional Athletes and Competitive Teams.',
+    cta: 'Book Assessment',
+    contactCta: 'Contact Us',
   },
   about: {
-    title: 'About Me',
-    subtitle: 'Get to know me better',
-    description: 'Physical Therapy graduate with 3 years of experience in non-invasive aesthetic treatments and nutrition coaching. I am passionate about helping clients achieve their health and body goals through advanced therapeutic techniques. With expertise in laser therapy, body contouring, and personalized nutrition plans, I provide comprehensive care that combines medical knowledge with aesthetic treatments to deliver optimal results for my clients.',
+    title: 'About Champiqo',
+    subtitle: 'Elite Sports Medical Care',
+    description: 'Champiqo Clinic specializes in sports rehabilitation, performance enhancement, and professional field medical coverage. We provide evidence-based treatment protocols designed to accelerate recovery and optimize athletic performance for professional and competitive athletes.',
     experience: 'Years of Experience',
-    projects: "Satisfied Clients",
-    clients: 'Treatments Provided',
-    experienceCount: '+3',
-    projectsCount: '50+',
+    projects: 'Athletes Treated',
+    clients: 'Championship Coverage',
+    experienceCount: '5+',
+    projectsCount: '500+',
     clientsCount: '30+',
   },
   services: {
-    title: 'My Services',
-    subtitle: 'What I can do for you',
+    title: 'Our Services',
+    subtitle: 'Professional Sports & Medical Support',
+
     service1: {
-      title: 'Laser Therapy',
-      description: 'Advanced laser treatments for fat reduction and skin rejuvenation using state-of-the-art devices.',
+      title: 'Physical Therapy',
+      description: 'Comprehensive orthopedic and sports physical therapy focused on injury prevention, pain management, and functional restoration.',
     },
     service2: {
-      title: 'Body Contouring',
-      description: 'Non-invasive body contouring techniques including cavitation, radiofrequency, and vacuum therapy.',
+      title: 'Sports Rehabilitation',
+      description: 'Structured rehabilitation programs designed to ensure safe and effective return-to-play.',
     },
     service3: {
-      title: 'Nutrition Coaching',
-      description: 'Personalized nutrition plans tailored to complement your treatment goals and lifestyle.',
+      title: 'Recovery & Performance',
+      description: 'Advanced recovery protocols including manual therapy, mobility work, and performance optimization.',
+    },
+    service4: {
+      title: 'Field Medical Support',
+      description: 'On-field injury assessment and medical coverage for events, championships, and competitive teams.',
+    },
+    service5: {
+      title: 'Sports Nutrition',
+      description: 'Performance-focused nutrition plans tailored to athletes and competitive individuals.',
     },
   },
-  portfolio: {
-    title: 'My Work',
-    subtitle: 'Experience and expertise in action',
-    viewAll: 'View All Projects',
-    project1: {
-      title: 'Diamond Clinic Experience',
-      category: 'Professional Experience',
-      description: 'Non-invasive body contouring specialist with 3+ years of experience',
+  specialists: {
+    title: 'Our Specialists',
+    subtitle: 'Clinical expertise and professional experience',
+
+    specialist1: {
+      title: 'Orthopedic Rehabilitation Specialist',
+      category: 'Sports & Musculoskeletal',
+      description: 'Specialized in managing orthopedic injuries and structured return-to-play protocols.',
     },
-    project2: {
-      title: 'Laser Therapy Treatments',
-      category: 'Laser Therapy',
-      description: 'Expertise in operating advanced laser devices for fat reduction',
+
+    specialist2: {
+      title: 'Sports Injury Management',
+      category: 'On-Field & Acute Care',
+      description: 'Immediate assessment, injury management, and athlete-centered medical decision-making.',
     },
-    project3: {
-      title: 'Nutrition Consultation',
-      category: 'Nutrition Coaching',
-      description: 'Personalized nutrition plans for optimal health and wellness',
+
+    specialist3: {
+      title: 'Performance Optimization',
+      category: 'Strength & Conditioning',
+      description: 'Evidence-based programs to enhance athletic performance and reduce injury risk.',
     },
-    project4: {
-      title: 'Physical Therapy Practice',
-      category: 'Physical Therapy',
-      description: 'Comprehensive physiotherapy treatments and rehabilitation',
+
+    specialist4: {
+      title: 'ICU & Post-Surgical Rehabilitation',
+      category: 'Clinical Rehabilitation',
+      description: 'Comprehensive rehabilitation planning for post-operative and critical care patients.',
     },
   },
   testimonials: {
@@ -102,22 +114,22 @@ const enTranslations = {
     },
   },
   contact: {
-    title: 'Contact Me',
-    subtitle: 'Let\'s work together',
+    title: 'Contact Us',
+    subtitle: 'Professional sports medical coverage starts here',
     namePlaceholder: 'Your Name',
     emailPlaceholder: 'Your Email',
     messagePlaceholder: 'Your Message',
     sendButton: 'Send Message',
-    address: 'Cairo, Egypt',
-    phone: '+20 111 110 6322',
-    email: 'alaahegazy962002@gmail.com',
-    responseNote: "I'll respond to your message as soon as possible. Thank you for reaching out!",
+    address: 'Sheikh Zayed, 6th of October, Egypt',
+    phone: '+20 155 815 5330',
+    email: 'info@champiqo.eg',
+    responseNote: 'We will respond as soon as possible.',
 
     // successMessage: 'Your message has been sent. Thank you!',
     // errorMessage: 'There was an error sending your message. Please try again.',
   },
   footer: {
-    copyright: '© 2025 Alaa Hegazy. All rights reserved.',
+    copyright: '© 2026 CHAMPIQO CLINIC. All rights reserved.',
     links: {
       privacy: 'Privacy Policy',
       terms: 'Terms of Service',
@@ -137,63 +149,79 @@ const arTranslations = {
     contact: 'اتصل بي',
   },
   hero: {
-    greeting: 'مرحباً، أنا',
-    name: 'الاء حجازي',
-    title: 'أخصائية علاج طبيعي في عيادة دايموند',
-    description: 'متخصصة في العلاجات التجميلية غير الجراحية والتغذية العلاجية',
-    cta: 'شاهد أعمالي',
-    contactCta: 'اتصل بي',
+    greeting: 'مرحباً بكم في',
+    name: 'عيادة CHAMPIQO',
+    title: 'العب • تعافى • نافس',
+    description: 'علاج طبيعي رياضي احترافي ودعم طبي ميداني للرياضيين والفرق التنافسية.',
+    cta: 'احجز تقييم',
+    contactCta: 'تواصل معنا',
   },
   about: {
-    title: 'عنّي',
-    subtitle: 'تعرف عليّ أكثر',
-    description: 'خريجة علاج طبيعي مع خبرة 3 سنوات في العلاجات التجميلية غير الجراحية والتغذية العلاجية. شغوفة بمساعدة العملاء على تحقيق أهدافهم الصحية والجمالية من خلال تقنيات علاجية متقدمة. لدي خبرة في العلاج بالليزر، نحت الجسم، وخطط التغذية الشخصية، وأقدم رعاية شاملة تجمع بين المعرفة الطبية والعلاجات التجميلية لتحقيق أفضل النتائج.',
+    title: 'عن Champiqo',
+    subtitle: 'رعاية طبية رياضية متقدمة',
+    description: 'تتخصص عيادة Champiqo في التأهيل الرياضي، تحسين الأداء، والتغطية الطبية الميدانية للبطولات والفرق الرياضية، مع بروتوكولات علاجية مبنية على الأدلة العلمية لتسريع التعافي وتحسين الأداء.',
     experience: 'سنوات الخبرة',
-    projects: 'العملاء الراضون',
-    clients: 'العلاجات المقدمة',
-    experienceCount: '+3',
-    projectsCount: '50+',
+    projects: 'عدد الرياضيين',
+    clients: 'تغطيات بطولات',
+    experienceCount: '5+',
+    projectsCount: '500+',
     clientsCount: '30+',
   },
   services: {
-    title: 'خدماتي',
-    subtitle: 'ماذا يمكنني أن أقدم لك',
+    title: 'خدماتنا',
+    subtitle: 'الدعم الطبي والرياضي الاحترافي',
+
     service1: {
-      title: 'العلاج بالليزر',
-      description: 'علاجات ليزر متقدمة لتقليل الدهون وتجديد البشرة باستخدام أحدث الأجهزة.',
+      title: 'العلاج الطبيعي',
+      description: 'خدمات علاج طبيعي شاملة متخصصة في الإصابات العظمية والرياضية مع التركيز على الوقاية من الإصابات واستعادة الكفاءة الحركية.',
     },
+
     service2: {
-      title: 'نحت الجسم',
-      description: 'تقنيات نحت الجسم غير الجراحية مثل الكافيتيشن، الترددات الراديوية، والعلاج بالشفط.',
+      title: 'التأهيل الرياضي',
+      description: 'برامج تأهيل متكاملة مصممة لإعادة الرياضيين إلى الملاعب بأمان ووفق بروتوكولات عودة للمنافسة مبنية على أسس علمية.',
     },
+
     service3: {
-      title: 'التغذية العلاجية',
-      description: 'خطط تغذية شخصية مصممة لتكمل أهداف علاجك ونمط حياتك.',
+      title: 'الاستشفاء وتحسين الأداء',
+      description: 'بروتوكولات استشفاء متقدمة تشمل العلاج اليدوي، تحسين الحركة، وبرامج تطوير الأداء البدني.',
+    },
+
+    service4: {
+      title: 'الدعم الطبي الميداني',
+      description: 'تغطية طبية فورية للمباريات والبطولات مع تقييم وإدارة الإصابات داخل الملعب.',
+    },
+
+    service5: {
+      title: 'التغذية الرياضية',
+      description: 'خطط غذائية مبنية على الأدلة العلمية لدعم الأداء الرياضي وتسريع التعافي.',
     },
   },
-  portfolio: {
-    title: 'أعمالي',
-    subtitle: 'الخبرة والاحترافية في العمل',
-    viewAll: 'عرض جميع الأعمال',
-    project1: {
-      title: 'خبرة في عيادة دايموند',
-      category: 'خبرة مهنية',
-      description: 'متخصصة في نحت الجسم غير الجراحي مع خبرة أكثر من 3 سنوات',
+  specialists: {
+    title: 'فريق التخصصات',
+    subtitle: 'خبرات إكلينيكية وتجربة مهنية احترافية',
+
+    specialist1: {
+      title: 'أخصائي التأهيل العظمي',
+      category: 'إصابات الملاعب والجهاز الحركي',
+      description: 'متخصص في إدارة الإصابات العظمية وتنفيذ بروتوكولات العودة الآمنة للملاعب.',
     },
-    project2: {
-      title: 'علاجات الليزر',
-      category: 'العلاج بالليزر',
-      description: 'خبرة في تشغيل أجهزة الليزر المتقدمة لتقليل الدهون',
+
+    specialist2: {
+      title: 'إدارة الإصابات الرياضية',
+      category: 'الرعاية الميدانية والطوارئ',
+      description: 'تقييم فوري وإدارة احترافية للإصابات مع اتخاذ قرارات طبية دقيقة تتمحور حول اللاعب.',
     },
-    project3: {
-      title: 'استشارات التغذية',
-      category: 'التغذية العلاجية',
-      description: 'خطط تغذية شخصية لصحة ورفاهية مثالية',
+
+    specialist3: {
+      title: 'تحسين الأداء الرياضي',
+      category: 'الإعداد البدني',
+      description: 'برامج مبنية على الأدلة العلمية لرفع كفاءة الأداء وتقليل مخاطر الإصابات.',
     },
-    project4: {
-      title: 'ممارسة العلاج الطبيعي',
-      category: 'العلاج الطبيعي',
-      description: 'علاجات علاج طبيعي شاملة وإعادة تأهيل',
+
+    specialist4: {
+      title: 'تأهيل ما بعد الجراحة والعناية المركزة',
+      category: 'التأهيل الإكلينيكي',
+      description: 'خطط تأهيل متكاملة للحالات الجراحية ومرضى الرعاية الحرجة.',
     },
   },
   testimonials: {
@@ -226,24 +254,24 @@ const arTranslations = {
     },
   },
   contact: {
-    title: 'اتصل بي',
-    subtitle: 'لنعمل معًا',
-    namePlaceholder: 'اسمك',
-    emailPlaceholder: 'بريدك الإلكتروني',
-    messagePlaceholder: 'رسالتك',
-    sendButton: 'إرسال الرسالة',
-    address: 'القاهرة، مصر',
-    phone: '+1 234 567 890',
-    email: 'alaahegazy962002@gmail.com',
-    responseNote: "سأرد على رسالتك في أقرب وقت ممكن. شكرًا لتواصلك!",
+    title: 'تواصل معنا',
+    subtitle: 'التغطية الطبية الرياضية الاحترافية تبدأ من هنا',
+    namePlaceholder: 'الاسم الكامل',
+    emailPlaceholder: 'البريد الإلكتروني',
+    messagePlaceholder: 'اكتب رسالتك هنا',
+    sendButton: 'إرسال',
+    address: 'الشيخ زايد، السادس من أكتوبر، مصر',
+    phone: '+20 155 815 5330',
+    email: 'info@champiqo.eg',
+    responseNote: 'سيتم التواصل معك في أقرب وقت ممكن.',
     // successMessage: 'تم إرسال رسالتك. شكرًا لك!',
     // errorMessage: 'حدث خطأ أثناء إرسال رسالتك. يرجى المحاولة مرة أخرى.',
   },
   footer: {
-    copyright: '© 2025 الاء حجازي. جميع الحقوق محفوظة.',
+    copyright: '© 2025 CHAMPIQO CLINIC. جميع الحقوق محفوظة.',
     links: {
       privacy: 'سياسة الخصوصية',
-      terms: 'شروط الخدمة',
+      terms: 'الشروط والأحكام',
     },
   },
 };

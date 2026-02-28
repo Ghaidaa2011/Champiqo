@@ -1,7 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Zap, WandSparkles, Apple } from "lucide-react";
+import {
+  Activity,
+  Dumbbell,
+  HeartPulse,
+  Stethoscope,
+  Apple,
+} from "lucide-react";
 
 const ServicesSection = () => {
   const { t } = useTranslation();
@@ -10,16 +16,26 @@ const ServicesSection = () => {
     {
       title: t("services.service1.title"),
       description: t("services.service1.description"),
-      icon: <Zap className="h-8 w-8" />,
+      icon: <Activity className="h-8 w-8" />,
     },
     {
       title: t("services.service2.title"),
       description: t("services.service2.description"),
-      icon: <WandSparkles className="h-8 w-8" />,
+      icon: <Dumbbell className="h-8 w-8" />,
     },
     {
       title: t("services.service3.title"),
       description: t("services.service3.description"),
+      icon: <HeartPulse className="h-8 w-8" />,
+    },
+    {
+      title: t("services.service4.title"),
+      description: t("services.service4.description"),
+      icon: <Stethoscope className="h-8 w-8" />,
+    },
+    {
+      title: t("services.service5.title"),
+      description: t("services.service5.description"),
       icon: <Apple className="h-8 w-8" />,
     },
   ];
